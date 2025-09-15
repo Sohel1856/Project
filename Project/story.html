@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Style/practice_style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./practice.html">Home</a>
+        <a href="./service.html">Service</a>
+        <a href="./county.html">Places</a>
+        <a href="./story.html">Descriptions</a>
+      </nav>
+    </header>
+    <div id="story-container">
+      <div id="story">
+        <div class="heading-content">
+          <h4>BEST OF ASIA</h4>
+          <h2>Explore the top spots of Asia</h2>
+        </div>
+        <div id="story-card-container">
+          <div class="story-card">
+            <div class="story-image">
+              <img src="images/chaina-wall.png" alt="" />
+            </div>
+            <div class="story-content">
+              <h2>Great Wall of China</h2>
+              <img src="images/chaina.png" alt="" />
+              <p>
+                Not until the creation and maintenance of decent conditions of
+                life for all people are recognized and accepted as a common
+                obligation of all people and all countries—not until then shall
+                we, with a certain degree of justification, be able to speak of
+                humankind as civilized
+              </p>
+              <button class="btn" id="bookBtn">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popup Form -->
+    <div id="form-popup">
+      <div class="popup-content">
+        <h3>Booking Form</h3>
+        <form
+          action="submit.php"
+          method="POST"
+          onsubmit="return handleSubmit(event)"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <button type="submit">Submit</button>
+        </form>
+        <button onclick="closeForm()">Close</button>
+      </div>
+    </div>
+  </body>
+  <script src="form.js"></script>
+</html>
