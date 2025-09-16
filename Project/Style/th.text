@@ -1,0 +1,51 @@
+1. HTML (HyperText Markup Language)
+
+HTML is the standard markup language for creating web pages.
+
+In this project, HTML defines the structure of the website including the header, navigation bar, sections (home, adventure, packages, contact, footer), and input forms.
+
+Key features used:
+
+<header>, <nav>, <section>, <footer> for layout.
+
+<form> for user input.
+
+<a>, <img>, <h1>, <p> for content organization.
+
+2. CSS (Cascading Style Sheets)
+
+CSS is used to style and design the website.
+
+It controls the layout, colors, typography, responsiveness, and hover effects.
+
+In this project:
+
+Flexbox & Grid are used to arrange packages and categories.
+
+Media Queries ensure the site is responsive on mobile, tablet, and desktop.
+
+Custom styles like gradient text, rounded buttons, search form animation, and hover effects are applied.
+
+3. JavaScript
+
+JavaScript adds interactivity and dynamic behavior to the site.
+
+In this project:
+
+The navigation bar opens and closes with a toggle button.
+
+The search form appears as a popup when the search icon is clicked and disappears on close.
+
+Scroll events are used to add/remove styles on the header while scrolling.
+
+4. PHP (Hypertext Preprocessor)
+
+PHP is a server-side scripting language used for form handling and database connectivity.
+
+In this project:
+
+The contact form data (Name, Email, Phone, Subject, Message) is collected and stored in a MySQL database.
+
+PHP script validates the connection and executes an INSERT query.
+
+A success or error message is shown depending on the result.
